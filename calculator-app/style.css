@@ -21,6 +21,8 @@
        /* #### Text */
     --VeryDarkGrayishBlue: hsl(221, 14%, 31%);
     --White: hsl(0, 0%, 100%);
+
+
 }
 
 body {
@@ -71,19 +73,25 @@ main{
     border-radius: 50%;
 }
 .first{
-    background-color: var(--RedKeyBackgroundToggle);
+    background-color: transparent;
     border: none;
     outline: none;
+    opacity: 0;
+    transition: 0.5s all;
 }
 .second{
-    background-color: var(--RedKeyBackgroundToggle);
+    background-color: transparent;
     border: none;
     outline: none;
+    opacity: 0;
+    transition: 0.5s all;
 }
 .third{
-    background-color: var(--RedKeyBackgroundToggle);
+    background-color: transparent;
     border: none;
     outline: none;
+    opacity: 0;
+    transition: 0.5s all ;
 }
 .theme__span{
     margin-top: 0.25em;
@@ -132,7 +140,6 @@ main{
     margin: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: var(--DesaturatedDarkBlueKeyShadow);
     background-color: var(--VeryDarkDesaturatedBlueScreenBackground);
     
 }
@@ -186,6 +193,7 @@ main{
         box-shadow: 0px 7px 1px var(--DesaturatedDarkBlueKeyShadow);
         color: var(--White);
 }
+
 .del:active{
     filter: grayscale(20%);
 }
@@ -200,6 +208,10 @@ main{
     position: relative;
     top: -3.2vw;
     left: 1vw;
+}
+.theme__active{
+    opacity: 1;
+    background-color: var(--RedKeyBackgroundToggle)
 }
 
 @media (max-width: 500px){

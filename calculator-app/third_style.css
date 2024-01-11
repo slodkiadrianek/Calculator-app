@@ -1,0 +1,55 @@
+:root{
+    /* ## Theme 3 */
+    /* #### Backgrounds */
+    --VeryDarkVioletMainBackground: hsl(268, 75%, 9%);
+    --VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground: hsl(268, 71%, 12%);
+    /* #### Keys */
+    --DarkVioletKeyBackground: hsl(281, 89%, 26%);
+    --VividMagentaKeyShadow: hsl(285, 91%, 52%);
+    --PureCyanKeyBackgroundToggle: hsl(176, 100%, 44%);
+    --SoftCyanKeyShadow: hsl(177, 92%, 70%);
+    --VeryDarkVioletKeyBackground: hsl(268, 47%, 21%);
+    --DarkMagentaKeyShadow: hsl(290, 70%, 36%);
+    /* #### Text */
+    --LightYellow: hsl(52, 100%, 62%);
+    --VeryDarkBlue: hsl(198, 20%, 13%);
+    --WhiteText: hsl(0, 0%, 100%);
+}
+.body__third{
+    background-color: var(--VeryDarkVioletMainBackground);
+}
+.header__third{
+    color: var(--LightYellow);
+}
+.theme__box__third{
+    background-color: var(--VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground);
+}
+.theme__span__third{
+    color: var(--LightYellow);
+}
+.screen__third{
+    background-color: var(--VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground);
+}
+.screen__input__third{
+    background-color: var(--VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground); 
+    color: var(--LightYellow);   
+}
+.keyboard__third{
+    background-color: var(--VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground);
+}
+.mini__butons__third {
+    background-color: var(--VeryDarkVioletToggleBackgroundKeypadBackgroundScreenBackground)
+}
+.btn{
+    background-color: var(--VeryDarkVioletKeyBackground);
+    box-shadow: 0px 7px 1px var(--DarkMagentaKeyShadow);
+    color: var(--LightYellow);
+}
+.reset___second__third{
+    background-color: var(--DarkVioletKeyBackground);
+    box-shadow: 0px 7px 1px var(--VividMagentaKeyShadow);
+}
+.del___second__third {
+    background-color: var(--PureCyanKeyBackgroundToggle);
+    box-shadow: 0px 7px 1px var(--SoftCyanKeyShadow);
+}

@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator app</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="second__style.css">
+    <link rel="stylesheet" href="third_style.css">
+
     <script defer src="script.js"></script>
+   
+   
 </head>
 <body>
     <main>
@@ -19,7 +25,7 @@
                 <div class="theme__box">
                       
                     <div class="switch__box">
-                        <button class="theme__switch first "></button>
+                        <button class="theme__switch first theme__active"></button>
                         <button class="theme__switch second"></button>
                         <button class="theme__switch third"></button>
                     </div>
@@ -31,26 +37,26 @@
             </div>
         </div>
         <div class="screen">
-            <input class="screen__input" type="number">
+            <input class="screen__input" type="text">
         </div>
         <div class="keyboard">
             <div class="mini__butons">
-                <button class="button__mini">7</button>
-                <button class="button__mini">8</button>
-                <button class="button__mini">9</button>
+                <button class="button__mini number__sign">7</button>
+                <button class="button__mini number__sign">8</button>
+                <button class="button__mini number__sign">9</button>
                 <button class="button__mini del">DEL</button>
-                <button class="button__mini">4</button>
-                <button class="button__mini">5</button>
-                <button class="button__mini">6</button>
-                <button class="button__mini">+</button>
-                <button class="button__mini">1</button>
-                <button class="button__mini">2</button>
-                <button class="button__mini">3</button>
-                <button class="button__mini">.</button>
-                <button class="button__mini">0</button>
-                <button class="button__mini">/</button>
-                <button class="button__mini">-</button>
-                <button class="button__mini">x</button>
+                <button class="button__mini number__sign">4</button>
+                <button class="button__mini number__sign">5</button>
+                <button class="button__mini number__sign">6</button>
+                <button class="button__mini special__sign">+</button>
+                <button class="button__mini number__sign">1</button>
+                <button class="button__mini number__sign">2</button>
+                <button class="button__mini number__sign">3</button>
+                <button class="button__mini dot">.</button>
+                <button class="button__mini number__sign">0</button>
+                <button class="button__mini special__sign">/</button>
+                <button class="button__mini special__sign">-</button>
+                <button class="button__mini special__sign">x</button>
             </div>
             <div class="big__buttons">
                 <button class="button__big reset">RESET</button>

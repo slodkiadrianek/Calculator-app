@@ -1,0 +1,56 @@
+:root{
+    /* theme2 */
+    /* #### Backgrounds */
+    --LightGrayMainBackground: hsl(0, 0%, 90%);
+    --GrayishRedToggleBackgroundKeypadBackground: hsl(0, 5%, 81%);
+    --VeryLightGrayScreenBackground: hsl(0, 0%, 93%);
+    /* Keys */
+    --DarkModerateCyanKeyBackground: hsl(185, 42%, 37%);
+    --VeryDarkCyanKeyShadow: hsl(185, 58%, 25%);
+    --OrangeKeyBackgroundToggle: hsl(25, 98%, 40%);
+    --DarkOrangeKeyShadow: hsl(25, 99%, 27%);
+    --LightGrayishYellowKeyBackground: hsl(45, 7%, 89%);
+    --DarkGrayishOrangeKeyShadow: hsl(35, 11%, 61%);
+    /* Text */
+    --VeryDarkGrayishYellow: hsl(60, 10%, 19%);
+    --WhiteText: hsl(0, 0%, 100%);
+}
+
+.body__second{
+    background-color: var(--LightGrayMainBackground);
+}
+.header___second{
+    color: var(--VeryDarkGrayishYellow);
+}
+.theme__box___second{
+    background-color: var(--GrayishRedToggleBackgroundKeypadBackground);
+}
+.theme__span___second{
+    color: var(--VeryDarkGrayishYellow);
+}
+.screen___second{
+    background-color: var(--VeryLightGrayScreenBackground);
+}
+.screen__input___second{
+    background-color: var(--VeryLightGrayScreenBackground);
+    color: var(--VeryDarkGrayishYellow);
+}
+.keyboard___second{
+    background-color: var(--GrayishRedToggleBackgroundKeypadBackground)
+}
+.mini__butons___second{
+    background-color: var(--GrayishRedToggleBackgroundKeypadBackground)
+}
+.button__mini___second{
+    box-shadow: 0px 7px 1px var(--DarkGrayishOrangeKeyShadow);
+    color: var(--VeryDarkGrayishYellow);
+}
+.reset___second{
+    background-color: var(--DarkModerateCyanKeyBackground);
+    border: none;
+    box-shadow: 0px 7px 1px var(--VeryDarkCyanKeyShadow);
+}
+.del___second {
+    background-color: var(--OrangeKeyBackgroundToggle);
+    box-shadow: 0px 7px 1px var(--DarkOrangeKeyShadow);
+}
